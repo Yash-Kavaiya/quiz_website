@@ -1,0 +1,13 @@
+CREATE TABLE quiz (
+  id INT NOT NULL AUTO_INCREMENT,
+  question VARCHAR(250) NOT NULL,
+  op1 VARCHAR(2000) NOT NULL,
+  op2 VARCHAR(250) NOT NULL,
+  op3 VARCHAR(250) NOT NULL,
+  op4 VARCHAR(250) NOT NULL,
+  select_ans INT,
+  answer INT,
+  mark INT,
+  flag VARCHAR(10),
+  PRIMARY KEY (id)
+);
